@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("https://images.hdqwalls.com/download/night-mountains-minimalist-8k-wo-2880x1800.jpg");
+	font-family: 'Montserrat', sans-serif;
+	
+	
+}
+nav {
+	background: rgba(0,0,0,0.66);
+	height: 80px;
+	width: 100%;
+
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a:hover{
+	background: rgba(186,159,14,1.00);
+	transition: .5s;
+	
+}
+a img {
+	transition: 0.2s ease;
+}
+a img:hover {
+	transform: scale(1.10);
+}
+
+
